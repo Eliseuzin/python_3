@@ -1,0 +1,97 @@
+#bibliotecas= pacotes de códigos
+#pip install pyautogui
+
+#import pyautogui
+
+#pyautogui.click- clicar
+#pyautogui.write- escrever um texto
+#pyautogui.- aperta uma tecla
+#pyautogui.hotkey- aperta um atalho(hotkey)
+
+#para evitar um comando atropelar o outro, evitando travamento
+#pyautogui.PAUSE = 1
+#link="link de qualquer site que voce pretende entrar"
+
+#passo a passo do seu programa
+#passo1: entrar no sistema da empresa
+#abriria o navegador
+
+
+#pyautogui.press("win")
+#pyautogui.write("chrome")
+#pyautogui.press("enter)
+
+
+#pyautogui.write(link)
+#pyautogui.press("enter")
+
+
+#quando criamos automação, e interessante fazer uma pausa maior caso a internet esteja ruim e aconteça erro.
+#fazer o controle de tempo, uma pausar maior para rodar o programa naquele momento
+#import time
+
+
+#time.sleep("tempo desejado fora das aspas")
+#pyautogui hastag assistir no youtube
+
+#sempre usar um tempo para manter mais seguraça
+
+#passo 2: fazer login
+#clicar no campo de email
+#time.sleep(5)
+#print(pyautogui.position)
+
+
+#pyautogui.click("x=234, y=1234", possicao do click desejado)
+#pyautogui.write("email_do_cadastro")
+
+
+#pyautogui, não é indentificado como robo
+#captcha
+
+#normalmente, alguém tem que fazer ou pagar alguém, pois de fato é díficil.
+
+#o próximo campo, voce press tab ou fazer o click como já aprendemos
+
+#pyautogui.press("tab")
+#pyautogui.write("a sua senha")
+#pyautogui.press("tab")
+#pyautogui.press("enter")
+
+#fazer uma pausa para carregar o login
+#time.sleep(5)
+
+#passo 3: Abrir a base de dados
+
+#trabalhar com base de dados
+#pip install pandas openpyxl(openpyxl para ler planilhas)
+
+#import pandas
+#tabela=pandas.read_varios arquivos
+#tabela=pandas.read_csv("produtos.csv" aqui, voce coloca o caminho)
+
+
+#passo 4: cadastrar 1 produto
+
+#tudo que voce quiser executar varias vezes
+#for intem in itens_listas colocar o nome de acordo com a tabela
+#for linha in tabela.index:
+
+
+    #time.sleep(5)
+    #print(pyautogui.position)
+    #pyautogui.click(x=123,y=234)
+    #pyautogui.whrite("maça")
+    #pyautogui.press("tab")
+
+    #marca
+    #pyautogui.write("logitech")
+    #pyautogui.press("tab")
+
+    # e assim sucessivamente até chegar em salvar ou cadastrar produto
+
+    #pyautogui.press("tab") passar para o botão enviar, cadastrar etc
+    #pyautogui.press("enter")
+
+
+#passo 5: Repetir o passo 4 até finalizar todos os produtos linha 76
