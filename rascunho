@@ -81,10 +81,17 @@
     #time.sleep(5)
     #print(pyautogui.position)
     #pyautogui.click(x=123,y=234)
+    
+    # sempre que voce for localizar tabelas em python você dever usar []
+    
+    #formata como string para quando não da erro com os numeros
+    #codigo = str(tabela.loc[linhas,"tipo"]) entre "" deve ser o nome exato da tabela
+
     #pyautogui.whrite("maça")
     #pyautogui.press("tab")
 
     #marca
+    #marca=str(tabela.loc[linha,"marca"])
     #pyautogui.write("logitech")
     #pyautogui.press("tab")
 
@@ -93,5 +100,13 @@
     #pyautogui.press("tab") passar para o botão enviar, cadastrar etc
     #pyautogui.press("enter")
 
+    #if obs !="nan":
+       #pyautogui.write(obs)
 
+    #quando chegar no final do cadastro.
+    #voltar para o ínicio da tela
+    #pyautogui.scroll(numeros negativos para baixo, numeros positivos para cima)
+    
+
+    #dica, colocar um numero auto assim ele vai para o top
 #passo 5: Repetir o passo 4 até finalizar todos os produtos linha 76
